@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head><title>Portfolio</title></head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/ubuntu-mono-2">
+<link rel="stylesheet" href="./ui/main.css">
+<body>
+<script src="./import-map.js"></script>
+<div id="app"></div>
+<script type="module">
+// #region IMPORTS
+    import { render }               from '@tp/preact/preact.mjs';
+    import { html }                 from '@tp/preact/htm_preact.mjs';
+    // import { useSignal, effect }    from '@tp/preact/signals.mjs';
+    // import { deepSignal, peek, shallow }
+    //                                 from '@tp/preact/deepsignal.mjs';
+
+    // import { PanelSection, RowSelect } from '@ui/index.js';
+    //
+    import App from '@com/App.js';
+// #endregion
+
+render( html`<${App} />`, document.getElementById('app') );
+</script></body></html>

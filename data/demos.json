@@ -1,0 +1,65 @@
+[
+
+  { "title": "Posing for AI Images", "img":"/posemode.jpg", "url":"https://www.youtube.com/watch?v=Of_Dc3nUNfg", "type":"kinematics",
+    "desc":"Built the frontend posing tool for cartwheel. This allows the user to finely control the pose and camera angles when using Google's Nano Banana image generator." }
+  ,
+  { "title": "IK Animation Retargeting", "img":"/ossos.jpg", "url":"https://sketchpunklabs.github.io/ossos_demo/old_demo/", "type":"kinematics",
+    "desc":"Playing back an animation & computing the IK data in real time. The data is then passed to various rigs which recomputes an approximate pose per frame using a collection of analytical solvers. This shows that a human animation can be applied to various biped and even quadrupeds." }
+  ,
+  { "title": "KayKit Animation Preview", "img":"/kaykit.jpg", "url":"https://sketchpunklabs.github.io/kaykit_char/", "type":"animation",
+    "desc":"Modified the default character to have a digital face that is procedurally generated using SDFs in a custom shader. A UI is provided for the user to switch between all available animations. As animations play, certain ones will have props pop into the screne for extra effect." }
+  ,
+  { "title": "Voxel Auto Skinning", "img":"/autoskin.jpg", "url":"https://sketchpunklabs.github.io/autoskinning/prototypes/007_refactor.html", "type":"kinematics",
+    "desc":"Using transform feedback & GPGPU as compute shader standin for WebGL, mesh triangles & skeleton bones are analyized using the concept of voxel heat maps to compute the joint assignment & weights of each vertex. Once processed & applied, the mesh is then able to be animated as if it was skinned in a tool like blender. The idea is to create a mixamo like tool that runs on the client browser without backend support." }
+  ,
+  { "title": "Vector Based Retargeting", "img":"/retargetvec.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/anim/002_retarget.html", "type":"kinematics",
+    "desc":"A different animation retargeting that does not use rotation differences nor ik. Its all based on swing & twist vectors assigned to bones. Example also includes additives to alter the animatioon. Currently being used by Mesh2Motion as their retargetting solution." }
+  ,
+  { "title": "IK Gizmo UI Prototype", "img":"/ikgizmo.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/gizmos/003_ik_limb_v2_demo.html", "type":"kinematics",
+    "desc":"Prototyping gizmo ideas for a character posing web app." }
+  ,
+  { "title": "SplineIK Prototype", "img":"/ikspline.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/ik/002_splineik.html", "type":"kinematics",
+    "desc":"Created an implemented of spline inverse kinematics with position offset and scale for each point of the spline. The idea is to be able to create a posing rig for a character with rubber powers." }
+  ,
+  { "title": "CCD IK with Hinge Constraint", "img":"/ikccdhinge.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/ik/004_ccd_robo.html", "type":"kinematics",
+    "desc":"Implemention of cyclic coordinate cescent inverse kinematics with a vector based hinge constraint. This demostrates using IK on a 6 DOF robotic arm along with visuals that shows the limits of each joint." }
+  ,
+  { "title": "HandRig /w 2D Blendspace", "img":"/handrig.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/ik/005_hand.html", "type":"kinematics",
+    "desc":"Developed a web based handrig along with 2D blendspace functionality with UI which is used to easly blend between 8 different poses. Extra UI included to pose individual fingers." }
+  ,
+  { "title": "PBIK Prototype", "img":"/ikpb.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/ik/006_pbik.html", "type":"kinematics",
+    "desc":"An attempt to create an implementation of unreal engine's position based dynamics inverse kinematics solver. The idea is to use points along with a collection of constraints to compute ik targets that is then translated into quaternion joint rotations." }
+  ,
+  { "title": "MinionArt's Fake Liquid", "img":"/fakeliquid.jpg", "url":"https://sketchpunklabs.github.io/materials/materials/toon/minionsart_fake_liquid.html", "type":"shaders",
+    "desc":"My attempt at replicating MinionArt's unity tutorial on making fake liquid but using web technologies like threejs in place of unity." }
+  ,
+  { "title": "Blender SuperSuit Material", "img":"/supersuit.jpg", "url":"https://sketchpunklabs.github.io/materials/materials/misc/hero_suit.html", "type":"shaders",
+    "desc":"A fun challenge to recreate a procedural super suit blender material by creating a custom shader in threejs." }
+  ,
+  { "title": "Marching Cubes /w 3D Tiles", "img":"/marchingcubes.jpg", "url":"https://sketchpunklabs.github.io/irregular_grid/marchingcubes_3dtiles.html", "type":"procedural",
+    "desc":"Implemention of the marching cubes algorithm but instead of using a triangle table, this example uses 3D mesh tiles collection that comes with most of the possible 8 bit combinations." }
+  ,
+  { "title": "Irregular Grids", "img":"/marchingcubes_igrid.jpg", "url":"https://sketchpunklabs.github.io/irregular_grid/hex_marchingcubes.html", "type":"procedural",
+    "desc":"Taking marching cubes with 3D Tiles one step further by using irregular grid. This requires rehaping the cube tiles to fit correctly in the irregular grid cells. This is a technique that is popular in city building indy games." }
+  ,
+  { "title": "Baller Vehicle Controller", "img":"/baller.jpg", "url":"https://sketchpunklabs.github.io/ballerxr/prototypes/baller_chair.html", "type":"misc",
+    "desc":"This is a vehicle controller build around a unqiue fortnite vehicle. Springs are used to simulate the motion of the inner chair as the user drives the ball around the scene." }
+  ,
+  { "title": "Hyrule 3D Map", "img":"/hyrule.jpg", "url":"https://sketchpunklabs.github.io/ballerxr/prototypes/terrain_hyrule.html", "type":"misc",
+    "desc":"Using map tiles & height maps ripped from a zelda game, this example allows a user to traverse the map as the tiles get loading in dynamically onto a grid mesh that is then shaped by the height maps to give the map a 3D feel instead of being a flat 2d image." }
+  ,
+  { "title": "Rumba Style FK Posing", "img":"/rumba.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/anim/000_rumba_select_v2.html", "type":"kinematics",
+    "desc":"There is a posing tool called rumba that has a unqiue visual way of selecting joints for rotation. This is my personal attempt at replicating it using web technologies." }
+  ,
+  { "title": "1D Blendspace", "img":"/blendspace1d.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/anim/001_char_2_bspace1d.html", "type":"animation",
+    "desc":"Implementation of 1D Blendspace to easily blend 3 or more animations together in a linear way. It computes the proper time syncing and blend weights that can be used in any webbased animation tool like threejs's mixer." }
+  ,
+  { "title": "Compute Root Motion", "img":"/rootmotion.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/anim/003_calc_root.html", "type":"animation",
+    "desc":"This prototype creates root motion by processing the animation then modifies the threejs animation clip by adding an extra track with data to move the character based on the movement of the feet. For fun I created a treadmill shader to visually see the motion data." }
+  ,
+  { "title": "Camera Rails", "img":"/splinecam.jpg", "url":"https://sketchpunklabs.github.io/threejs_proto/code/webgl/maths/spline_camera.html", "type":"misc",
+    "desc":"Spline curve is treated as rails to drive the motion of the camera. The motion can be viewed in a mini view as the spline can be altered at runtime." }
+  ,
+  { "title": "Wave Function Collapse", "img":"/wfc_road.jpg", "url":"https://sketchpunklabs.github.io/old_protos/src/threejs/wave_function_collapse/index.html", "type":"procedural",
+    "desc":"Implementation of the WFC algorithm using 3D tiles to procedurally generate inter connected roads based on available tiles." }
+]

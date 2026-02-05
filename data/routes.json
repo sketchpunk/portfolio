@@ -1,0 +1,6 @@
+[
+    { "path":"/README.md", "title":"README", "content":"/pages/readme.js" },
+    { "path":"/src/resume.txt", "title":"Resume", "content":"/pages/resume.js" },
+    { "path":"/src/projects.tsx", "title":"Projects", "content":"/pages/projects.js" },
+    { "path":"/src/demos.tsx", "title":"Kinematics", "content":"/pages/demos.js" }
+]

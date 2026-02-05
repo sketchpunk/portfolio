@@ -1,0 +1,98 @@
+import { html } from '@tp/preact/htm_preact.mjs';
+
+export default function content(){
+    const root = globalThis.ROOTPATH;
+
+    return html`
+        <div style="display:flex; flex-direction:row; flex-wrap:wrap; gap:30px; justify-content:center; margin:20px 0px;">
+            <div style="width:300px; padding:15px; display:flex; flex-direction:column; border:2px solid rgb(43, 43, 43); border-radius:10px; background-color:rgb(24, 24, 24); box-shadow:0px 7px 9px 0px #00000099;">
+                <img src="${root}/pages/img/profile_pic.jpg" style=" width:200px; align-self:center; margin-bottom:10px; border-radius:50%; border:3px solid black; object-fit: cover; overflow: hidden;"/>
+                <div style="font-size:28px; color:white; font-weight:bold;">Pedro Sousa</div>
+                <div style="font-size:18px; color:#707070; font-weight:bold;">Alias: Vor ( Virual OverRide )</div>
+                <div style="font-size:18px; color:#707070; font-weight:bold;">Pronouns: He, Him, It, You There</div>
+
+                <ul style="padding:8px 0px 0px 16px; margin:0px;">
+                    <li>✨ IK Necromancer</li>
+                    <li>🎨 Wannabe 3D Modeler</li>
+                    <!--<li>⚙️ Engineer of the Software</li>
+                    <li>🕹️ Inspiring Indie GameDev</li>-->
+                    <li>🔢 Lover of Maths</li>
+                    <li>🥒 Open Source Enthusiast</li>
+                    <li>🤪 Wakadoodle Extraordinar</li>
+                    <li>🧙‍♂️ Dwarven Beard the White</li>
+                </ul>
+
+                <div style="margin-top:20px;">
+                    <b>Bio :</b>
+                    <div style="color:#707070;">Just your average humble opensource dev with a big interest in inverse kinematics, procedural generation & game engine development.</div>
+                </div>
+
+                <div style="margin-top:20px;"><b>Socials:</b></div>
+                <div style="margin-top:10px; display:flex; flex-wrap:wrap; gap:10px; row-grap:10px;" class="socials">
+                    <a href="https://github.com/sketchpunk" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/p-sousa" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div style="width:300px; padding:15px; display:flex; flex-direction:column; border:2px solid rgb(43, 43, 43); border-radius:10px; background-color:rgb(24, 24, 24); box-shadow:0px 7px 9px 0px #00000099;">
+                <div style="align-self:center; display:flex; justify-content:center; margin-bottom:10px; padding:12px; border-radius:50%; border:1px solid #707070; object-fit: cover; overflow: hidden;">
+                    <svg fill="white" stroke="white" width="180" height="180" viewBox="0 0 498.21876 498.2207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                    <g id="g5316" transform="translate(-152.89062,-151.8418)">
+                        <path
+                        id="path4736-8"
+                        d="m 402,225.00391 c -39.82452,0 -76.6208,13.2234 -106.22852,35.50976 l 19.17579,7.03125 0.0195,-0.0195 8.02539,7.43945 c 13.73636,-8.54536 28.96512,-14.92856 45.2207,-18.66601 l -0.41406,-10.92969 h 67.74805 l 0.41601,10.9707 c 16.2481,3.75651 31.45905,10.16924 45.18359,18.73047 l 7.42383,-8.00781 47.9043,47.9043 -7.45313,8.04101 c 8.54226,13.73426 14.93488,28.95283 18.67188,45.20508 l 10.9375,-0.41406 v 67.74805 l -10.99414,0.41601 c -3.758,16.245 -10.1331,31.47376 -18.69336,45.19727 l 7.99414,7.41015 -12.07422,12.07422 12.60938,12.60938 c 0.40671,0.41241 0.73001,0.86829 0.97656,1.35937 C 563.76613,483.99148 578.99609,444.7389 578.99609,402 578.99609,304.40997 499.59003,225.00391 402,225.00391 Z M 260,296.45898 C 238.02476,325.94803 225.00391,362.4829 225.00391,402 c 0,97.59003 79.40606,176.99805 176.99609,176.99805 42.50254,0 81.55671,-15.0627 112.10352,-40.12891 -0.46052,-0.24994 -0.88959,-0.56971 -1.28125,-0.96484 -0.83006,-0.80073 -5.37233,-5.32142 -12.64258,-12.57618 l -11.14649,11.14649 -8.02539,-7.43945 c -13.73636,8.54536 -28.96512,14.92857 -45.2207,18.66601 l 0.41406,10.92969 h -67.74805 l -0.41601,-10.99414 c -16.245,-3.758 -31.47376,-10.1331 -45.19727,-18.69336 l -7.41015,7.99414 -47.9043,-47.9043 7.43945,-8.02539 c -8.54536,-13.73636 -14.92857,-28.96512 -18.66601,-45.2207 l -10.92969,0.41406 v -67.74805 l 10.99414,-0.41601 c 3.75813,-16.24424 10.13355,-31.47221 18.69336,-45.19531 l -7.96875,-7.38868 -0.002,0.002 -0.002,-0.006 -0.0215,-0.0195 0.01,-0.01 z" />
+                    </g>
+                    <g id="g5149" transform="translate(-152.89062,-151.8418)">
+                        <path id="path5151"
+                        d="m 367.92188,151.8418 -22.25977,35.84765 c -19.3931,5.10139 -37.75361,12.77108 -54.69727,22.62305 l -41.28515,-9.33398 -47.92383,47.92382 9.47266,40.51368 c -10.21411,17.24244 -18.15912,35.97783 -23.41797,55.79882 l -34.91993,22.04102 v 67.77539 l 34.2793,21.28711 c 5.19028,20.52016 13.25357,39.90485 23.73047,57.70898 l -8.875,39.2461 47.92383,47.92383 38.49609,-9 c 18.10172,10.84773 37.8673,19.1899 58.82227,24.5332 l 21.03515,33.33203 h 67.77539 l 20.70508,-33.3457 c 20.95295,-5.34812 40.71552,-13.69517 58.81446,-24.54688 l 38.72265,8.75586 47.92383,-47.92383 -9.12109,-39.01367 c 10.47259,-17.80519 18.5307,-37.19075 23.71679,-57.71094 l 34.26954,-21.6289 v -67.77539 l -34.92969,-21.69141 c -5.26129,-19.81757 -13.20686,-38.5499 -23.42188,-55.78906 l 9.2168,-40.76172 -47.92383,-47.92383 -41.03516,9.59375 c -16.94447,-9.85011 -35.30568,-17.51779 -54.69921,-22.61719 L 435.69727,151.8418 Z M 402,169.75781 c 7.58329,-3.9e-4 13.73086,6.14718 13.73047,13.73047 -6.8e-4,7.58253 -6.14794,13.72891 -13.73047,13.72852 -7.58253,3.9e-4 -13.72979,-6.14599 -13.73047,-13.72852 -3.9e-4,-7.58329 6.14718,-13.73086 13.73047,-13.73047 z m 0,42.66797 c 104.8891,0 189.57617,84.68511 189.57617,189.57422 0,104.8891 -84.68707,189.57617 -189.57617,189.57617 -104.8891,0 -189.57617,-84.68707 -189.57617,-189.57617 0,-45.38287 15.85307,-86.9829 42.33789,-119.57812 l -15.94531,-42.7461 -0.0781,-0.0781 0.0566,0.0215 -0.0449,-0.12305 0.17383,0.16993 42.77539,15.6875 C 314.40141,228.51527 356.28163,212.42578 402,212.42578 Z M 182.24609,388.26953 c 7.58329,-3.9e-4 13.73086,6.14718 13.73047,13.73047 3.9e-4,7.58329 -6.14718,13.73086 -13.73047,13.73047 -7.58253,-6.9e-4 -13.7289,-6.14794 -13.72851,-13.73047 -3.9e-4,-7.58253 6.14598,-13.72978 13.72851,-13.73047 z m 439.50782,0 c 7.58253,6.9e-4 13.7289,6.14794 13.72851,13.73047 3.9e-4,7.58253 -6.14598,13.72978 -13.72851,13.73047 -7.58329,3.9e-4 -13.73086,-6.14718 -13.73047,-13.73047 -3.9e-4,-7.58329 6.14718,-13.73086 13.73047,-13.73047 z M 402,609.26367 c 7.58329,-3.9e-4 13.73086,6.14718 13.73047,13.73047 -6.8e-4,7.58253 -6.14794,13.72891 -13.73047,13.72852 -7.58253,3.9e-4 -13.72979,-6.14599 -13.73047,-13.72852 -3.9e-4,-7.58329 6.14718,-13.73086 13.73047,-13.73047 z"
+                        />
+                    </g>
+                    <g id="g5205" transform="translate(-152.89062,-404.20396)">
+                        <path id="path5207"
+                        d="m 282.76355,560.20877 -24.01136,-48.66232 48.66234,24.01135 230.05829,230.05829 c 8.03927,8.15198 -16.44443,32.93013 -24.65097,24.65097 -6.35137,-6.12697 -230.0583,-230.05829 -230.0583,-230.05829 z"
+                        style="display:inline;fill:none;fill-opacity:0.904762;fill-rule:evenodd;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path id="rect5209"
+                        d="m 301.60352,551.76451 -2.6836,2.68359 200.69754,200.69894 -10.90235,10.90235 13.94532,13.94531 24.49023,-24.49024 -13.94531,-13.94531 -10.9043,10.9043 z" />
+                        <path id="path5211"
+                        d="m 261.50209,514.95919 11.87807,21.17991 c 0,0 0.59855,-8.70329 9.76725,-10.06241 z" />
+                        <path id="path5215"
+                        d="m 283.36616,559.94898 c 6.60174,-7.97238 12.35544,-7.13446 17.86551,-5.62809 -1.38915,-5.92096 -1.59876,-11.60992 5.89264,-18.13006"
+                        style="display:inline;fill:none;fill-rule:evenodd;stroke-width:2.24744;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    </g>
+                    <g id="layer2" transform="translate(-152.89062,-404.20396)">
+                        <path id="path3376"
+                        style="display:inline;fill-opacity:1;fill-rule:evenodd;stroke-width:0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                        d="m 365.16406,548.51841 -13.27344,40.86328 33.80079,13.14063 20.24609,-39.42969 z m 51.43555,18.57422 -21.64649,38.35547 20.08399,9.4707 1.14258,27.19336 32.91992,-54.27734 z m -81.4668,25.49023 -46.95508,72.04102 32.55665,84.24609 38.55468,27.74414 -7.83398,41.73438 c 43.96187,3.07772 84.07169,3.40439 112.51367,-4.60352 l -4.05078,-37.84179 21.36133,-22.78516 -65.8316,-62.44428 -28.21332,-13.8272 30.15429,28.66015 9.72656,38.87695 -21.20703,27.79688 16.06641,-28.94336 -10.50586,-33.06641 -32.8125,-30.07617 -17.72852,-16.18554 -5.21093,-24.37305 12.96875,17.72656 39.77539,-6.14648 -1.28711,-30.87305 z m 123.14453,4.35743 -49.8164,71.54296 27.6582,18.75196 48.32422,-64.34961 z m 31.06836,39.2539 -46.15039,56.08985 18.00977,16.08007 47.74804,-42.24804 z m -1.90429,63.00391 -12.10987,7.76026 11.17187,11.21875 z" />
+                    </g>
+                    </svg>
+                </div>
+
+                <div style="font-size:28px; color:white; font-weight:bold;">SketchPunk Labs</div>
+                <div style="font-size:18px; color:#707070; font-weight:bold;">Opensource Brand Name</div>
+
+                <div style="margin-top:20px;">
+                    <b>Mission :</b>
+                    <div style="color:#707070;">
+                        As one who stands on the shoulder of giants, we work diligently and without rest to
+                        become giants ourselves so we may help carry the next generation of great inventors and tinkerers.
+                    </div>
+                </div>
+
+                <div style="margin-top:20px;"><b>Socials:</b></div>
+                <div style="margin-top:10px; display:flex; flex-wrap:wrap; gap:10px; row-grap:10px;" class="socials">
+                    <a href="https://github.com/sketchpunklabs" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/SketchpunkLabs" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://mastodon.gamedev.place/@sketchpunk" target="_blank"><i class="fa-brands fa-mastodon"></i></a>
+                    <a href="https://www.youtube.com/c/sketchpunklabs" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://codepen.io/sketchpunk" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+                    <a href="https://discord.gg/7VACdDuc" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.patreon.com/c/sketchpunk" target="_blank"><i class="fa-brands fa-patreon"></i></a>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+content.title = 'README';
+
+// Electric border https://codepen.io/BalintFerenczy/pen/KwdoyEN

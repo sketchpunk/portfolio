@@ -1,0 +1,11 @@
+[
+  {
+    "name": "src", "type": "folder", "children": [
+        { "name": "resume.txt", "type": "file", "route":"/src/resume.txt" },
+        { "name": "projects.tsx", "type": "file", "route":"/src/projects.tsx" },
+        { "name": "demos.tsx", "type": "file", "route":"/src/demos.tsx" }
+    ]
+  },
+
+  { "name": "README.md", "type": "file", "route":"/README.md" }
+]
