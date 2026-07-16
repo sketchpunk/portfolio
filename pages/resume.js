@@ -15,6 +15,11 @@ export default function content(){
 <code>${genNum(0,60)}</code>
 <code><pre>
 
+<h1><i>■</i> Zonda — Senior 3D Web Developer <i>///</i> MAR 2026 - Current</h1>
+<h2><i>│</i> *** TechStack ::: Web Components, BabylonJS, WebGL, GLSL, JavaScript, HTML, CSS ***<br/><i>│</i></h2>
+<p><i>└─</i> • Maintain & Add features to their 3D Architectural Layout Viewer.</p>
+<br/>
+
 <h1><i>■</i> Cartwheel — Frontend & 3D Developer <i>///</i> MAR 2025 - JAN 2026</h1>
 <h2><i>│</i> *** TechStack ::: React, React Fiber, Threejs, WebGL, GLSL, Python, TypeScript, Tailwind ***<br/><i>│</i></h2>
 <p><i>├─</i> • Developed a 3D Character posing tool to work with Google's Nano Banana AI to
